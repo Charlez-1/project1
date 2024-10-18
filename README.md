@@ -10,8 +10,8 @@ Welcome to Car Deal Shop, a platform where users can buy, sell, and rent cars ea
 -json-server
 ###How to run it
 -Clone repository
--Install dependcies
+-Install dependciesS
 -Start the server
 -Access application
 ##License
-MIT license ()
+MIT license (https://github.com/Charlez-1/project1/blob/master/LICENSE)
