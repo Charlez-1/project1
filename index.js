@@ -1,3 +1,7 @@
+// fetch posts
+fetch("https://project1-br0b.onrender.com/post")
+.then((res) => res.json() )
+.then((data) => {})
 // Function to toggle the dropdown menu
 function toggleDropdown() {
     document.querySelector('.dropdown-content').classList.toggle('show');
