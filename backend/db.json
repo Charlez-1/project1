@@ -1,0 +1,45 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Smith",
+        "email": "alice@example.com",
+        "profileImage": "images/alice.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Bob Johnson",
+        "email": "bob@example.com",
+        "profileImage": "images/bob.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "userId": 1,
+        "content": "Just learnt to drive !",
+        "date": "2024-10-17"
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "content": "new month new car!",
+        "date": "2024-10-16"
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "content": "Loving the journey so far!",
+        "date": "2024-10-15"
+      }
+    ],
+    "sessions": [
+      {
+        "sessionId": "abc123",
+        "userId": 1,
+        "date": "2024-10-18"
+      }
+    ]
+  }
+
+  
