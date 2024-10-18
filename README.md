@@ -15,3 +15,6 @@ Welcome to Car Deal Shop, a platform where users can buy, sell, and rent cars ea
 -Access application
 ##License
 MIT license (https://github.com/Charlez-1/project1/blob/master/LICENSE)
+###servers
+https://charlez-1.github.io/project1/
+https://project1-br0b.onrender.com
