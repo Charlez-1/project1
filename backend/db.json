@@ -3,14 +3,14 @@
       {
         "id": 1,
         "name": "Alice Smith",
-        "email": "alice@example.com",
-        "profileImage": "images/alice.jpg"
+        "email": "alice@example.com"
+        
       },
       {
         "id": 2,
         "name": "Bob Johnson",
-        "email": "bob@example.com",
-        "profileImage": "images/bob.jpg"
+        "email": "bob@example.com"
+        
       }
     ],
     "posts": [

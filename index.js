@@ -1,7 +1,20 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const rentbutton= document.getElementById('RENT');
+    const sellbutton = document.getElementById('SELL');
+    const buybutton = document.getElementById('BUY');
+
+
 // fetch posts
-fetch("https://project1-br0b.onrender.com/post")
-.then((res) => res.json() )
-.then((data) => {})
+searchButton.addEventListener('click', () => {
+    const price = "#price";
+    if (price) {
+        fetch('')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
 // Function to toggle the dropdown menu
 function toggleDropdown() {
     document.querySelector('.dropdown-content').classList.toggle('show');
@@ -61,3 +74,4 @@ function handleSearch() {
 
 // Event listener for the search input
 document.querySelector('input[type="text"]').addEventListener('keyup', handleSearch);
+    }})})

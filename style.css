@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    
     color: #333;
 }
 .navbar {
@@ -56,6 +57,8 @@ body {
 .post {
     margin: 20px;
     background: white;
+    background-image: url(backend/59bcc356bedf9baacd8e07e0d665a493.jpg);
+    /* text-decoration-color: #ddd; */
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -70,9 +73,11 @@ body {
 }
 .submit{
     padding: 5px;
-    text-decoration-color: black;
+    text-decoration-color:#ddd;
     background-color: lightgreen;
 }
-
+.bodyy{
+ background-image: url(backend/59bcc356bedf9baacd8e07e0d665a493.jpg);
+ }
 
 
