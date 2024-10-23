@@ -15,6 +15,12 @@ searchButton.addEventListener('click', () => {
                 }
                 return response.json();
             })
+
+// fetch posts
+fetch("https://project1-br0b.onrender.com/post")
+.then((res) => res.json() )
+.then((data) => {})
+ d904feb5e69161968e9a6860a06bd79077a1bb6
 // Function to toggle the dropdown menu
 function toggleDropdown() {
     document.querySelector('.dropdown-content').classList.toggle('show');
@@ -74,4 +80,7 @@ function handleSearch() {
 
 // Event listener for the search input
 document.querySelector('input[type="text"]').addEventListener('keyup', handleSearch);
+
     }})})
+
+d904feb5e69161968e9a6860a06bd79077a1bb6
